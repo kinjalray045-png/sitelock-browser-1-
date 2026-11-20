@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SiteLock Browser</string>
+    <string name="url_hint">Video site URL, e.g. https://example.com/watch</string>
+    <string name="go">Go</string>
+    <string name="reload">Reload</string>
+    <string name="lock_switch">Site lock</string>
+</resources>
