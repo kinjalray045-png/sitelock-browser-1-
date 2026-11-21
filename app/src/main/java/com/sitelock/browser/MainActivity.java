@@ -291,9 +291,6 @@ public class MainActivity extends Activity {
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view,
                                                               WebResourceRequest request) {
-                if (request.getResourceType() == WebResourceRequest.ResourceType.MEDIA) {
-                    detectedVideoUrl = request.getUrl().toString();
-                }
                 if (locked && isAdHost(request.getUrl().getHost())) {
                     return emptyResponse();
                 }
